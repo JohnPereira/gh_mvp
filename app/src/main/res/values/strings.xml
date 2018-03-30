@@ -4,4 +4,13 @@
     <string name="hint_username">Nombre de usuario</string>
     <string name="hint_password">Contraseña</string>
     <string name="text_button_login">Iniciar Sesion</string>
+    <string name="dont_have_account">¿No tienes cuenta?, </string>
+    <string name="create_here">Crea una aquí</string>
+    <string name="hint_firstName">Nombre</string>
+    <string name="hint_LastName">Apellido</string>
+    <string name="hint_email">Correo</string>
+    <string name="hint_phoneNumber">Numero de Teléfono</string>
+    <string name="hint_validationCode">Código de validación</string>
+    <string name="text_button_register">Crear Cuenta</string>
+    <string name="toolbar_tittle_createaccount">Crear Cuenta</string>
 </resources>
