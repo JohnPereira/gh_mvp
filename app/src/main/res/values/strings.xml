@@ -13,4 +13,14 @@
     <string name="hint_validationCode">Código de validación</string>
     <string name="text_button_register">Crear Cuenta</string>
     <string name="toolbar_tittle_createaccount">Crear Cuenta</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main_container">MainContainer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_container">ContainerActivity</string>
 </resources>
