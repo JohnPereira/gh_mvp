@@ -21,7 +21,9 @@ public class CreateAccountActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar)findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         //titulo del actionbar
-        getSupportActionBar().setTitle(tittle);
+        //getSupportActionBar().setTitle(tittle);
+        //sacar el titulo del action bar
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
         //setear si tiene boton de regreso o no
         getSupportActionBar().setDisplayHomeAsUpEnabled(upButton);
     }

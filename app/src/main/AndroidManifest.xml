@@ -35,7 +35,8 @@
         <activity
             android:name=".view.ContainerActivity"
             android:label="@string/title_activity_container"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
+        <activity android:name=".view.ResponseDriverActivity"></activity>
     </application>
 
 </manifest>
