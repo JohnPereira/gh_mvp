@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.v7.widget.CardView
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:cardview="http://schemas.android.com/apk/res-auto"
     android:id="@+id/cardView_driversResponse"
     android:layout_height="@dimen/height_cardView_driversResponse"
-    android:layout_width="match_parent">
+    android:layout_width="match_parent"
+    android:layout_marginTop="6dp"
+    android:layout_marginHorizontal="6dp">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,10 +16,9 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:padding="5dp"
-            android:layout_weight="0.67">
-
+            android:layout_weight="0.73">
             <ImageView
-                android:id="@+id/imgLogo"
+                android:id="@+id/imgDriverAvatar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
@@ -29,22 +29,25 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:padding="5dp"
-            android:layout_weight="0.33"
+            android:layout_weight="0.27"
             android:orientation="vertical"
             android:weightSum="1">
 
             <TextView
+                android:id="@+id/txtUsernameCard"
                 android:text="Alejandro Pereira Gonzalez"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.15"
-                android:textSize="20sp"/>
+                android:textSize="17sp"/>
             <TextView
+                android:id="@+id/txtEstimatedTimeCard"
                 android:text="A 15 minutos aprox."
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.15"/>
             <TextView
+                android:id="@+id/txtTotalValueCard"
                 android:text="Precio: $15.000"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -54,33 +57,32 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.15">
-
                 <ImageView
-                    android:id="@+id/imgStar1"
+                    android:id="@+id/imgStar1Card"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
                     android:background="@drawable/icons8_star_48"/>
                 <ImageView
-                    android:id="@+id/imgStar2"
+                    android:id="@+id/imgStar2Card"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
                     android:background="@drawable/icons8_star_48"/>
                 <ImageView
-                    android:id="@+id/imgStar3"
+                    android:id="@+id/imgStar3Card"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
                     android:background="@drawable/icons8_star_48"/>
                 <ImageView
-                    android:id="@+id/imgStar4"
+                    android:id="@+id/imgStar4Card"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
                     android:background="@drawable/icons8_star_48"/>
                 <ImageView
-                    android:id="@+id/imgStar5"
+                    android:id="@+id/imgStar5Card"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
